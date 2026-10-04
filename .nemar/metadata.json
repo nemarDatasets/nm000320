@@ -1,0 +1,100 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "enriched",
+  "authors": {
+    "Mario Ortiz": {
+      "orcid": "0000-0002-4269-1554"
+    },
+    "Luis de la Ossa": {},
+    "Eduardo Ianez": {},
+    "Diego Torricelli": {
+      "orcid": "0000-0001-8767-3395"
+    },
+    "Jesus Tornero": {},
+    "Jose M. Azorin": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/s41597-023-02243-7",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.21185362.v2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000320",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000320",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "Ortiz2023",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "150 MB (193 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".tsv",
+    ".yaml"
+  ],
+  "description": "EEG recordings from 10 healthy participants performing kinesthetic motor imagery of gait while walking with a fully assisted lower-limb exoskeleton on flat ground. Trials alternate between relaxation, motor imagery, and a regressive-count distractor task, with auditory cues. The dataset is part of the DECODED sub-project of EUROBENCH and supports the cognitive assessment of motor imagery in brain-computer interface research.",
+  "methods_description": "EEG was recorded with a Brain Products actiCHamp system using 27 EEG channels and 4 EOG channels at 200 Hz. The reference was the left earlobe (A1) and the ground the right earlobe (A2). Online filters were a 0.1 Hz high-pass and a 50 Hz notch. Each session had 16 runs of 9 s cue-based trials with auditory cues.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "exoskeleton"
+    },
+    {
+      "term": "lower-limb exoskeleton"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "walking"
+    },
+    {
+      "term": "gait"
+    },
+    {
+      "term": "EUROBENCH"
+    },
+    {
+      "term": "DECODED"
+    },
+    {
+      "term": "cognitive assessment"
+    }
+  ],
+  "source_hash": "6c5a10616d244c75ef9123947326d9bb27c7467c57ea5c20d562abb4ebb88203"
+}
