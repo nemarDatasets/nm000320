@@ -1,0 +1,114 @@
+_dataset:
+  class: Ortiz2023
+  code: Ortiz2023
+  doi: 10.1038/s41597-023-02243-7
+  interval:
+  - 0
+  - 9
+  n_subjects: 10
+  paradigm: imagery
+acquisition:
+  auxiliary_channels:
+    eog_channels: 4
+    eog_type:
+    - horizontal
+    - horizontal
+    - vertical
+    - vertical
+    has_eog: true
+  channel_types:
+    eeg: 27
+    eog: 4
+  filters: 0.1 Hz high-pass and 50 Hz notch (online, hardware)
+  ground: right ear lobe (A2)
+  hardware: Brain Products actiCHamp
+  line_freq: 50.0
+  montage: standard_1005
+  reference: left ear lobe (A1)
+  sampling_rate: 200.0
+  sensor_type: Ag/AgCl wet
+  sensors:
+  - F3
+  - Fz
+  - FC1
+  - FCz
+  - C1
+  - Cz
+  - CP1
+  - CPz
+  - FC5
+  - FC3
+  - C5
+  - C3
+  - CP5
+  - CP3
+  - P3
+  - Pz
+  - F4
+  - FC2
+  - FC4
+  - FC6
+  - C2
+  - C4
+  - CP2
+  - CP4
+  - C6
+  - CP6
+  - P4
+documentation:
+  country: ES
+  data_url: https://doi.org/10.6084/m9.figshare.21185362.v2
+  description: EEG database for the cognitive assessment of motor imagery during walking with a lower-limb exoskeleton (DECODED,
+    a EUROBENCH sub-project); flat-ground (EXPERIENCE) scenario.
+  doi: 10.1038/s41597-023-02243-7
+  institution: Miguel Hernandez University of Elche
+  investigators:
+  - Mario Ortiz
+  - Luis de la Ossa
+  - Eduardo Ianez
+  - Diego Torricelli
+  - Jesus Tornero
+  - Jose M. Azorin
+  license: CC-BY-4.0
+  publication_year: 2023
+  related_paper_dois:
+  - 10.6084/m9.figshare.21185362.v2
+  repository: Figshare
+experiment:
+  class_labels:
+  - relax
+  - motor_imagery
+  - regressive_count
+  events:
+    motor_imagery: 2
+    regressive_count: 3
+    relax: 1
+  mode: offline
+  n_classes: 3
+  paradigm: imagery
+  stimulus_modalities:
+  - audio
+  stimulus_type: auditory
+  study_design: Kinesthetic motor imagery of gait alternated with relaxation and a regressive-count distractor task while
+    walking with a fully assisted lower-limb exoskeleton on flat ground.
+  synchronicity: cue-based
+  trial_duration: 9.0
+file_format: MAT
+participants:
+  age_mean: 28.7
+  age_std: 4.8
+  health_status: healthy
+  n_subjects: 10
+  species: homo sapiens
+runs_per_session: 16
+sessions:
+- '0'
+- '1'
+sessions_per_subject: 1
+tags:
+  modality:
+  - motor
+  pathology:
+  - healthy
+  type:
+  - imagery
