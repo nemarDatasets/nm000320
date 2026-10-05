@@ -1,5 +1,5 @@
 {
-    "Name": "Ortiz2023",
+    "Name": "Ortiz2023: Motor imagery during walking with a lower-limb exoskeleton",
     "BIDSVersion": "1.9.0",
     "HEDVersion": "8.4.0",
     "DatasetType": "derivative",
@@ -35,5 +35,8 @@
             "URL": "https://doi.org/10.6084/m9.figshare.21185362.v2"
         }
     ],
-    "PublicationYear": 2023
+    "PublicationYear": 2023,
+    "EthicsApprovals": [
+        "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
+    ]
 }
