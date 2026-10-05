@@ -37,6 +37,6 @@
     ],
     "PublicationYear": 2023,
     "EthicsApprovals": [
-        "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
+        "Approved by the Ethics and Integrity in Research Committee of Miguel Hern\u00e1ndez University of Elche, Spain (reference DIS.JAP.05.20), and by the Ethics Committee of CSIC, Madrid, Spain (internal reference 091/2021). All participants signed an informed consent in accordance with the Declaration of Helsinki (Ortiz et al. 2023, Sci. Data 10:343, DOI 10.1038/s41597-023-02243-7)."
     ]
 }

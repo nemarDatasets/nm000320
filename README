@@ -108,3 +108,13 @@ new human-subject data were collected during this BIDS re-release; this
 NEMAR record only reformats the published source data into BIDS via MOABB.
 Please consult the primary publication for the exact IRB/ethics committee
 reference.
+
+## Ethics
+
+Approved by the Ethics and Integrity in Research Committee of Miguel Hernández University of Elche, Spain (reference DIS.JAP.05.20), and by the Ethics Committee of CSIC, Madrid, Spain (internal reference 091/2021). All participants signed an informed consent in accordance with the Declaration of Helsinki (Ortiz et al. 2023, Sci. Data 10:343, DOI 10.1038/s41597-023-02243-7).
+
+Verbatim from the source:
+
+> All procedures were approved by the Ethics and Integrity in Research Committee of Miguel Hernández University of Elche (Spain) (Reference DIS.JAP.05.20) and the Ethics Committee of CSIC (Madrid, Spain) (Internal reference 091/2021). Consent for video and image recording was also given.
+
+Source: cached paper .paper-audit/Ortiz2023/paper-10_1038_s41597_023_02243_7.txt (Ortiz et al. 2023, Sci. Data 10:343, DOI 10.1038/s41597-023-02243-7).
