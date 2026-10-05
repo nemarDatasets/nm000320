@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Ortiz2023: Motor imagery during walking with a lower-limb exoskeleton",
-  "description": "EEG recordings from 10 healthy participants performing kinesthetic motor imagery of gait while walking with a fully assisted lower-limb exoskeleton on flat ground. Trials alternate motor imagery with relaxation and a regressive-count distractor task, cued by auditory stimuli. Data were recorded with 27 EEG and 4 EOG channels at 200 Hz as part of the DECODED EUROBENCH sub-project, and are re-released in BIDS format via MOABB.",
-  "methods_description": "EEG was recorded with a Brain Products actiCHamp system (Ag/AgCl wet electrodes, 27 EEG and 4 EOG channels, 200 Hz sampling rate, left earlobe reference, right earlobe ground, 0.1 Hz high-pass and 50 Hz notch online filters). Participants walked in a fully assisted lower-limb exoskeleton and followed auditory cues for relaxation, kinesthetic motor imagery of gait, or a regressive-count task, in 9 s trials over 16 runs.",
+  "description": "A BIDS-formatted re-release of an EEG database recording motor imagery of gait in 10 healthy participants walking with a fully assisted lower-limb exoskeleton on flat ground. Participants alternated kinesthetic motor imagery with relaxation and a regressive-count distractor task, cued by auditory stimuli. The data were recorded with 27 EEG and 4 EOG channels at 200 Hz and were collected as part of the DECODED sub-project of EUROBENCH.",
+  "methods_description": "EEG was recorded with a Brain Products actiCHamp amplifier (27 EEG and 4 EOG channels, Ag/AgCl wet electrodes, 200 Hz sampling rate, left earlobe reference, right earlobe ground, 0.1 Hz high-pass and 50 Hz notch online filters). Each 9 s trial was cued by audio and was one of three conditions: relax, motor imagery of gait, or regressive counting. Participants walked with a lower-limb exoskeleton, and each session comprised 16 runs.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -35,7 +35,14 @@
       "term": "brain-computer interface"
     },
     {
-      "term": "walking"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Walking",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D016138"
     }
   ],
   "related_identifiers": [
@@ -85,5 +92,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "d3619a9b1a76ccb68a882569181fc73a833bac96f9f8c7084f784b70db0b9d43"
+  "source_hash": "bf1e79c9c8f6696c44a1eea00506ba8ba91b7f485877a07d781e44c39721b2c0"
 }
