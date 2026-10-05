@@ -1,6 +1,11 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
+  "title": "Ortiz2023: Motor imagery during walking with a lower-limb exoskeleton",
+  "description": "EEG recordings from 10 healthy participants performing kinesthetic motor imagery of gait while walking with a fully assisted lower-limb exoskeleton on flat ground. Trials alternate motor imagery with relaxation and a regressive-count distractor task, cued by auditory stimuli. Data were recorded with 27 EEG and 4 EOG channels at 200 Hz as part of the DECODED EUROBENCH sub-project, and are re-released in BIDS format via MOABB.",
+  "methods_description": "EEG was recorded with a Brain Products actiCHamp system (Ag/AgCl wet electrodes, 27 EEG and 4 EOG channels, 200 Hz sampling rate, left earlobe reference, right earlobe ground, 0.1 Hz high-pass and 50 Hz notch online filters). Participants walked in a fully assisted lower-limb exoskeleton and followed auditory cues for relaxation, kinesthetic motor imagery of gait, or a regressive-count task, in 9 s trials over 16 runs.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Mario Ortiz": {
       "orcid": "0000-0002-4269-1554"
@@ -13,6 +18,26 @@
     "Jesus Tornero": {},
     "Jose M. Azorin": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "exoskeleton"
+    },
+    {
+      "term": "gait"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "walking"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1038/s41597-023-02243-7",
@@ -45,14 +70,11 @@
       "relation_type": "References"
     }
   ],
-  "title": "Ortiz2023",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "150 MB (193 files)"
   ],
@@ -60,41 +82,8 @@
     ".edf",
     ".json",
     ".tsv",
-    ".yaml"
+    ".yaml",
+    ".yml"
   ],
-  "description": "EEG recordings from 10 healthy participants performing kinesthetic motor imagery of gait while walking with a fully assisted lower-limb exoskeleton on flat ground. Trials alternate between relaxation, motor imagery, and a regressive-count distractor task, with auditory cues. The dataset is part of the DECODED sub-project of EUROBENCH and supports the cognitive assessment of motor imagery in brain-computer interface research.",
-  "methods_description": "EEG was recorded with a Brain Products actiCHamp system using 27 EEG channels and 4 EOG channels at 200 Hz. The reference was the left earlobe (A1) and the ground the right earlobe (A2). Online filters were a 0.1 Hz high-pass and a 50 Hz notch. Each session had 16 runs of 9 s cue-based trials with auditory cues.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "exoskeleton"
-    },
-    {
-      "term": "lower-limb exoskeleton"
-    },
-    {
-      "term": "brain-computer interface"
-    },
-    {
-      "term": "walking"
-    },
-    {
-      "term": "gait"
-    },
-    {
-      "term": "EUROBENCH"
-    },
-    {
-      "term": "DECODED"
-    },
-    {
-      "term": "cognitive assessment"
-    }
-  ],
-  "source_hash": "6c5a10616d244c75ef9123947326d9bb27c7467c57ea5c20d562abb4ebb88203"
+  "source_hash": "d3619a9b1a76ccb68a882569181fc73a833bac96f9f8c7084f784b70db0b9d43"
 }
