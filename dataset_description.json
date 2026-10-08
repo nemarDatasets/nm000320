@@ -1,42 +1,46 @@
 {
-    "Name": "Ortiz2023: Motor imagery during walking with a lower-limb exoskeleton",
-    "BIDSVersion": "1.9.0",
-    "HEDVersion": "8.4.0",
-    "DatasetType": "derivative",
-    "License": "CC-BY-4.0",
-    "Authors": [
-        "Mario Ortiz",
-        "Luis de la Ossa",
-        "Eduardo Ianez",
-        "Diego Torricelli",
-        "Jesus Tornero",
-        "Jose M. Azorin"
-    ],
-    "ReferencesAndLinks": [
-        "https://doi.org/10.6084/m9.figshare.21185362.v2"
-    ],
-    "Keywords": [
-        "healthy",
-        "motor",
-        "imagery"
-    ],
-    "DatasetDOI": "doi:10.1038/s41597-023-02243-7",
-    "GeneratedBy": [
-        {
-            "CodeURL": "https://github.com/NeuroTechX/moabb",
-            "Name": "moabb",
-            "Description": "Mother of All BCI Benchmarks",
-            "Version": "1.8.0dev0"
-        }
-    ],
-    "SourceDatasets": [
-        {
-            "DOI": "10.1038/s41597-023-02243-7",
-            "URL": "https://doi.org/10.6084/m9.figshare.21185362.v2"
-        }
-    ],
-    "PublicationYear": 2023,
-    "EthicsApprovals": [
-        "Approved by the Ethics and Integrity in Research Committee of Miguel Hern\u00e1ndez University of Elche, Spain (reference DIS.JAP.05.20), and by the Ethics Committee of CSIC, Madrid, Spain (internal reference 091/2021). All participants signed an informed consent in accordance with the Declaration of Helsinki (Ortiz et al. 2023, Sci. Data 10:343, DOI 10.1038/s41597-023-02243-7)."
-    ]
+  "Name": "Ortiz2023: Motor imagery during walking with a lower-limb exoskeleton",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Mario Ortiz",
+    "Luis de la Ossa",
+    "Eduardo Ianez",
+    "Diego Torricelli",
+    "Jesus Tornero",
+    "Jose M. Azorin"
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.6084/m9.figshare.21185362.v2"
+  ],
+  "Keywords": [
+    "healthy",
+    "motor",
+    "imagery"
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000320",
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.8.0dev0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.1038/s41597-023-02243-7",
+      "URL": "https://doi.org/10.6084/m9.figshare.21185362.v2"
+    },
+    {
+      "DOI": "doi:10.1038/s41597-023-02243-7"
+    }
+  ],
+  "PublicationYear": 2023,
+  "EthicsApprovals": [
+    "Approved by the Ethics and Integrity in Research Committee of Miguel Hernández University of Elche, Spain (reference DIS.JAP.05.20), and by the Ethics Committee of CSIC, Madrid, Spain (internal reference 091/2021). All participants signed an informed consent in accordance with the Declaration of Helsinki (Ortiz et al. 2023, Sci. Data 10:343, DOI 10.1038/s41597-023-02243-7)."
+  ],
+  "Version": "1.0.0"
 }
