@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Ortiz2023: Motor imagery during walking with a lower-limb exoskeleton",
-  "description": "EEG recordings from 10 healthy participants performing kinesthetic motor imagery of gait while walking with a fully assisted lower-limb exoskeleton on flat ground. The paradigm alternates motor imagery with relaxation and a regressive-count distractor task, cued by auditory stimuli. Data were recorded with 27 EEG and 4 EOG channels at 200 Hz as part of the DECODED EUROBENCH subproject, and are re-released in BIDS format via MOABB.",
-  "methods_description": "EEG was acquired with a Brain Products actiCHamp amplifier (27 EEG and 4 EOG channels, 200 Hz, Ag/AgCl wet electrodes, left earlobe reference, right earlobe ground, 0.1 Hz high-pass and 50 Hz notch online filters). Each participant completed one session of 16 runs with 9 s trials of relax, motor imagery, and regressive count conditions, cued by audio.",
+  "description": "This dataset contains EEG recordings from 10 healthy participants performing kinesthetic motor imagery of gait, relaxation, and a regressive-counting distractor task while walking with a fully assisted lower-limb exoskeleton on flat ground. Data were acquired with a 31-channel setup (27 EEG and 4 EOG) at 200 Hz. It is a BIDS re-release, produced via MOABB, of the DECODED/EUROBENCH database, intended for cognitive assessment of motor imagery and brain-computer interface research.",
+  "methods_description": "EEG was recorded with a Brain Products actiCHamp amplifier using Ag/AgCl wet electrodes at 200 Hz, referenced to the left earlobe and grounded at the right earlobe. Online filters were a 0.1 Hz high-pass and a 50 Hz notch. Each trial lasted 9 s and was cued by audio. Participants alternated relaxation, kinesthetic motor imagery of gait, and a regressive-count task across 16 runs.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -26,20 +26,23 @@
       "term": "motor imagery"
     },
     {
-      "term": "Exoskeleton Device",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000067190"
+      "term": "exoskeleton"
     },
     {
       "term": "Brain-Computer Interfaces",
       "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "walking"
+      "term": "Walking",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D016138"
     },
     {
-      "term": "lower-limb exoskeleton"
+      "term": "Gait",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005684"
     }
   ],
   "related_identifiers": [
@@ -93,5 +96,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "d84ee2c84b2cf866a6534ec01ef4812784cc20e9f189576f81785fe72aaf9208"
+  "source_hash": "118f9ef00a55d780809674c20fd3bed1e8928c33950fbe0ae4f8d73c4991cef1"
 }
